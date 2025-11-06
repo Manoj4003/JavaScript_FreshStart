@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JavaScript Example</title>
+  <title>JavaScript Intro</title>
 </head>
 <body>
-  <h2>My First JavaScript Program</h2>
+  <h1>Welcome to JavaScript!</h1>
+  <p id="demo">Click the button to see magic 😎</p>
 
   <button onclick="showMessage()">Click Me</button>
 
   <script>
     function showMessage() {
-      alert("Hello, welcome to JavaScript!");
+      document.getElementById("demo").innerHTML = "Hello Manoj! JS working fine 🎉";
+      console.log("Button clicked! JS running in console too...");
     }
   </script>
 </body>
